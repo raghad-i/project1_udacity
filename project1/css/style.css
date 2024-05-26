@@ -257,7 +257,6 @@ p{
     width: 100%;
     position: absolute;
     left: 0;
-    /*background-position:left top;*/
     background-size: cover;
     font-family: 'Source Sans Pro',sans-serif;
 }
@@ -346,45 +345,43 @@ p{
         width: 50%;
     }
 }
-.seventh{
+.blogs{
     background-color: #f1f1f1;
-    height:800px;
     width: 100%;
-    position: absolute;
-    left: 0;
+    padding:20px 0;
     font-family: 'Source Sans Pro',sans-serif;
 }
-.seventh .blogs{
+.blogs .blogs{
     display: flex;
     justify-content: center;
     align-items: center;
     width:95%;
     margin: 50px;
 }
-.seventh .blog{
+.blogs .blog{
    background-color: #fff;
    margin:15px;
 }
-.seventh img{
+.blogs img{
     width: 100%;
 }
-.seventh iframe{
+.blogs iframe{
     width: 100%;
 }
-.seventh .info{
+.blogs .info{
     padding: 20px;
 }
-.seventh a{
+.blogs a{
     color:#333;
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     transition: color 0.5s;
 }
-.seventh a:hover{
+.blogs a:hover{
     color: #ff305b;
 }
-.seventh .h2::before{
+.blogs .h2::before{
     content: " ";
     background-color: #ff305b;
     height: 0.5px;
@@ -393,9 +390,9 @@ p{
     position: absolute;
     right: 0;
     left: 0;
-    top:149px;
+    top:240px;
 }
-.seventh .h2::after{
+.blogs .h2::after{
     content: " ";
     border-top: #ff305b double 1px;
     border-bottom: #ff305b double 1px;
@@ -405,10 +402,10 @@ p{
     position: absolute;
     right: 0;
     left: 0;
-    top:143px;
+    top:235px;
 }
 @media screen and (max-width:575px){
-    .seventh{
+    .blogs{
         height:1850px;
     }
     .blogs{
@@ -418,7 +415,7 @@ p{
 
 }
 @media screen and (min-width:576px) and (max-width:900px){
-    .seventh{
+    .blogs{
         height:1300px;
     }
     .blogs{
@@ -426,18 +423,18 @@ p{
         flex-direction: column;
     }
 }
-.eighth{
-    margin-top:900px;
+.fourth{
+    margin-top:600px;
     height: 500px;
     position: relative;
 }
-.eighth .cont{
+.fourth .cont{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.eighth .contact {
+.fourth .contact {
     display: flex;
     width: 800px;
     flex-wrap: wrap;
@@ -446,7 +443,7 @@ p{
 .contact:hover .send{
     border: 1px solid #ff305b;
 } 
-.eighth .contact input{ 
+.fourth .contact input{ 
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -454,17 +451,17 @@ p{
     padding-left:15px;
     font-size: 14px;
 }
-.eighth .common{
+.fourth .common{
     width:337px;
     height:40px;
     color: #555;
 }
-.eighth .sub{
+.fourth .sub{
     width:720px;
     height:40px;
     color: #555;
 }
-.eighth #mess{
+.fourth #mess{
     width:700px;
     height:60px;
     color: #555;
@@ -473,7 +470,7 @@ p{
     margin-left: 18px;
     border: 1px solid #ccc;
 }
-.eighth .send{
+.fourth .send{
     background-color: #ff305b;
     color: #fff;
     font-size: 14px;
@@ -482,7 +479,7 @@ p{
     height: 40px;
     border:solid 1px #ff305b;
 }
-.eighth .h2::before{
+.fourth .h2::before{
     content: " ";
     background-color: #ff305b;
     height: 0.5px;
@@ -493,7 +490,7 @@ p{
     left: 0;
     top:51px;
 }
-.eighth .h2::after{
+.fourth .h2::after{
     content: " ";
     border-top: #ff305b double 1px;
     border-bottom: #ff305b double 1px;
@@ -506,21 +503,21 @@ p{
     top:45px;
 }
 @media screen and (max-width:575px){
-    .eighth{
+    .fourth{
         margin-top:1900px;
     }
-    .eighth .cont {
+    .fourth .cont {
         justify-content: left;     
     }
-    .eighth form{
+    .fourth form{
         width:30%;
     }
 }
 @media screen and (min-width:576px) and (max-width:900px){
-    .eighth{
+    .fourth{
         margin-top:1900px;
     }
-    .eighth .cont {
+    .fourth .cont {
         justify-content: left;     
     }
 }
